@@ -1,0 +1,28 @@
+Islamic Software Terms Of Use:
+
+1.  The source code may not be used in any way, shape or form to disparage Islam, Muslims,  the Shariah, the Prophet Muhammad (Peace be upon Him).
+
+2.  The source code may ONLY be modified in the following three circumstances:
+
+a.  To be used for another platform, which would require it to be re-written in a different language.
+
+b.  To improve efficiency, functionality, and add additional features that do not violate the integrity of the algorithm which is responsible for any calculations and computations.
+
+c.  To modify the algorithm such that it better conforms to the Shari'ah as dictated by the Qur'an, and the Authentic Sunnah and as extrapolated and taught by the Four Accepted Orthodox Sunni Schools of Thought, whose founders are Imam Abu Hanifah, Imam Malik, Imam Shafi'i, and Imam Ahmad b. Hanbal (May ALLAH Have Mercy on all of them).
+
+3.  If the user is a Non-Muslim, or someone who identifies themselves as a Muslim but does not adhere to the teachings of the Four Orthodox Sunni Schools of Theology and Law founded by Imam Abu Hanifah, Imam Malik, Imam Shafi'i, and Imam Ahmad who is downloading this source code, this source code may be used for educational, and research purposes only, and may not be used for commercial purposes under any circumstances.
+
+4.  If the user is a Muslim who adheres to the Four Orthodox Schools of Theology and Law in Sunni Islam, they may use the source code for either commercial, or non-profit purposes.  No commissions or royalties are required.  The only stipulation they are bound by are that they uphold the remaining points of this agreement.
+
+5.  No user, Muslim or otherwise may knowingly provide this source code to another individual who has the intent to violate any other elements of this agreement, especially point number 1.
+
+
+All citizenry of the Zionist entity called "Israel" that is occupying land between the borders of Egypt, Syria, Lebanon, and Jordan are permanently barred from using this source code, as are all citizens of the Vatican.  As are all members, past and present of the following organizations:
+
+Muslim Canadian Congress
+American Israeli Public Affairs Committee
+Any organization who is opposed to Islam or the implementation of the Shari'ah
+
+and any other organization (charitable or otherwise) that supports the Zionist entity named "Israel", the Vatican, or any non-Muslim government in power or in exile that is actively at war with a country whose population is having a Muslim majority population.  Moreover, any and all past, and present members of any agency that is involved in espionage, whether privately or for any government past or present may not use this source code, under any circumstances.  
+
+Violators of this charter who escape justice in this life will face maximum prosecution on the Day of Judgment.   
