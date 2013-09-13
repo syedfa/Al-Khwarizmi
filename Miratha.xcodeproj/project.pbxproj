@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30020C6415421FAE00688F31 /* Fraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 30020C6315421FAE00688F31 /* Fraction.m */; };
+		304044D514BA4E660080F917 /* ShareResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 304044D414BA4E660080F917 /* ShareResultViewController.m */; };
+		30ACFB2814A91BF800681477 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30ACFB2714A91BF800681477 /* UIKit.framework */; };
+		30ACFB2A14A91BF800681477 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30ACFB2914A91BF800681477 /* Foundation.framework */; };
+		30ACFB2C14A91BF800681477 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30ACFB2B14A91BF800681477 /* CoreGraphics.framework */; };
+		30ACFB3214A91BF800681477 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 30ACFB3014A91BF800681477 /* InfoPlist.strings */; };
+		30ACFB3414A91BF800681477 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30ACFB3314A91BF800681477 /* main.m */; };
+		30ACFB3814A91BF800681477 /* MirathaAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30ACFB3714A91BF800681477 /* MirathaAppDelegate.m */; };
+		30ACFB3B14A91BF800681477 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30ACFB3914A91BF800681477 /* MainStoryboard_iPhone.storyboard */; };
+		30ACFB3E14A91BF800681477 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30ACFB3C14A91BF800681477 /* MainStoryboard_iPad.storyboard */; };
+		30ACFB4114A91BF800681477 /* MirathaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30ACFB4014A91BF800681477 /* MirathaViewController.m */; };
+		7850F0D0170BAA4500F49D9C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7850F0CF170BAA4400F49D9C /* Default-568h@2x.png */; };
+		785115EA170D010E00E07D48 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 785115E9170D010E00E07D48 /* Icon.png */; };
+		785115EC170D012900E07D48 /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = 785115EB170D012900E07D48 /* iTunesArtwork.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		30020C6215421FAE00688F31 /* Fraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fraction.h; sourceTree = "<group>"; };
+		30020C6315421FAE00688F31 /* Fraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fraction.m; sourceTree = "<group>"; };
+		304044D314BA4E660080F917 /* ShareResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareResultViewController.h; sourceTree = "<group>"; };
+		304044D414BA4E660080F917 /* ShareResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareResultViewController.m; sourceTree = "<group>"; };
+		30ACFB2314A91BF800681477 /* Al-Khwarizmi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Al-Khwarizmi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30ACFB2714A91BF800681477 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		30ACFB2914A91BF800681477 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		30ACFB2B14A91BF800681477 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		30ACFB2F14A91BF800681477 /* Miratha-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Miratha-Info.plist"; sourceTree = "<group>"; };
+		30ACFB3114A91BF800681477 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		30ACFB3314A91BF800681477 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		30ACFB3514A91BF800681477 /* Miratha-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Miratha-Prefix.pch"; sourceTree = "<group>"; };
+		30ACFB3614A91BF800681477 /* MirathaAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MirathaAppDelegate.h; sourceTree = "<group>"; };
+		30ACFB3714A91BF800681477 /* MirathaAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MirathaAppDelegate.m; sourceTree = "<group>"; };
+		30ACFB3A14A91BF800681477 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		30ACFB3D14A91BF800681477 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		30ACFB3F14A91BF800681477 /* MirathaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MirathaViewController.h; sourceTree = "<group>"; };
+		30ACFB4014A91BF800681477 /* MirathaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MirathaViewController.m; sourceTree = "<group>"; };
+		7850F0CF170BAA4400F49D9C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
+		785115E9170D010E00E07D48 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../Icon.png; sourceTree = "<group>"; };
+		785115EB170D012900E07D48 /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iTunesArtwork.png; path = ../iTunesArtwork.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30ACFB2014A91BF700681477 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30ACFB2814A91BF800681477 /* UIKit.framework in Frameworks */,
+				30ACFB2A14A91BF800681477 /* Foundation.framework in Frameworks */,
+				30ACFB2C14A91BF800681477 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30ACFB1814A91BF700681477 = {
+			isa = PBXGroup;
+			children = (
+				30ACFB2D14A91BF800681477 /* Miratha */,
+				785115E8170D008C00E07D48 /* Resources */,
+				30ACFB2614A91BF800681477 /* Frameworks */,
+				30ACFB2414A91BF800681477 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30ACFB2414A91BF800681477 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30ACFB2314A91BF800681477 /* Al-Khwarizmi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30ACFB2614A91BF800681477 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				30ACFB2714A91BF800681477 /* UIKit.framework */,
+				30ACFB2914A91BF800681477 /* Foundation.framework */,
+				30ACFB2B14A91BF800681477 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		30ACFB2D14A91BF800681477 /* Miratha */ = {
+			isa = PBXGroup;
+			children = (
+				30020C6215421FAE00688F31 /* Fraction.h */,
+				30020C6315421FAE00688F31 /* Fraction.m */,
+				30ACFB3614A91BF800681477 /* MirathaAppDelegate.h */,
+				30ACFB3714A91BF800681477 /* MirathaAppDelegate.m */,
+				30ACFB3914A91BF800681477 /* MainStoryboard_iPhone.storyboard */,
+				30ACFB3C14A91BF800681477 /* MainStoryboard_iPad.storyboard */,
+				30ACFB3F14A91BF800681477 /* MirathaViewController.h */,
+				30ACFB4014A91BF800681477 /* MirathaViewController.m */,
+				304044D314BA4E660080F917 /* ShareResultViewController.h */,
+				304044D414BA4E660080F917 /* ShareResultViewController.m */,
+				30ACFB2E14A91BF800681477 /* Supporting Files */,
+			);
+			path = Miratha;
+			sourceTree = "<group>";
+		};
+		30ACFB2E14A91BF800681477 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				785115EB170D012900E07D48 /* iTunesArtwork.png */,
+				785115E9170D010E00E07D48 /* Icon.png */,
+				7850F0CF170BAA4400F49D9C /* Default-568h@2x.png */,
+				30ACFB2F14A91BF800681477 /* Miratha-Info.plist */,
+				30ACFB3014A91BF800681477 /* InfoPlist.strings */,
+				30ACFB3314A91BF800681477 /* main.m */,
+				30ACFB3514A91BF800681477 /* Miratha-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		785115E8170D008C00E07D48 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30ACFB2214A91BF700681477 /* Miratha */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30ACFB4414A91BF900681477 /* Build configuration list for PBXNativeTarget "Miratha" */;
+			buildPhases = (
+				30ACFB1F14A91BF700681477 /* Sources */,
+				30ACFB2014A91BF700681477 /* Frameworks */,
+				30ACFB2114A91BF700681477 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Miratha;
+			productName = Miratha;
+			productReference = 30ACFB2314A91BF800681477 /* Al-Khwarizmi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30ACFB1A14A91BF700681477 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Cybermedia Consulting";
+			};
+			buildConfigurationList = 30ACFB1D14A91BF700681477 /* Build configuration list for PBXProject "Miratha" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 30ACFB1814A91BF700681477;
+			productRefGroup = 30ACFB2414A91BF800681477 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30ACFB2214A91BF700681477 /* Miratha */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30ACFB2114A91BF700681477 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30ACFB3214A91BF800681477 /* InfoPlist.strings in Resources */,
+				30ACFB3B14A91BF800681477 /* MainStoryboard_iPhone.storyboard in Resources */,
+				30ACFB3E14A91BF800681477 /* MainStoryboard_iPad.storyboard in Resources */,
+				7850F0D0170BAA4500F49D9C /* Default-568h@2x.png in Resources */,
+				785115EA170D010E00E07D48 /* Icon.png in Resources */,
+				785115EC170D012900E07D48 /* iTunesArtwork.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30ACFB1F14A91BF700681477 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30ACFB3414A91BF800681477 /* main.m in Sources */,
+				30ACFB3814A91BF800681477 /* MirathaAppDelegate.m in Sources */,
+				30ACFB4114A91BF800681477 /* MirathaViewController.m in Sources */,
+				304044D514BA4E660080F917 /* ShareResultViewController.m in Sources */,
+				30020C6415421FAE00688F31 /* Fraction.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		30ACFB3014A91BF800681477 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30ACFB3114A91BF800681477 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		30ACFB3914A91BF800681477 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30ACFB3A14A91BF800681477 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		30ACFB3C14A91BF800681477 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30ACFB3D14A91BF800681477 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30ACFB4214A91BF900681477 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Fayyazuddin Syed (64MQ7HA9BE)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Fayyazuddin Syed (64MQ7HA9BE)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		30ACFB4314A91BF900681477 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Fayyazuddin Syed (64MQ7HA9BE)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Fayyazuddin Syed (64MQ7HA9BE)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30ACFB4514A91BF900681477 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Fayyazuddin Syed (64MQ7HA9BE)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Fayyazuddin Syed (64MQ7HA9BE)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Miratha/Miratha-Prefix.pch";
+				INFOPLIST_FILE = "Miratha/Miratha-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "Al-Khwarizmi";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		30ACFB4614A91BF900681477 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Fayyazuddin Syed (64MQ7HA9BE)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Fayyazuddin Syed (64MQ7HA9BE)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Miratha/Miratha-Prefix.pch";
+				INFOPLIST_FILE = "Miratha/Miratha-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "Al-Khwarizmi";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		785115ED170D352900E07D48 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Fayyazuddin Syed";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Fayyazuddin Syed";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		785115EE170D352900E07D48 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Fayyazuddin Syed";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Fayyazuddin Syed";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Miratha/Miratha-Prefix.pch";
+				INFOPLIST_FILE = "Miratha/Miratha-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "Al-Khwarizmi";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Distribution;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30ACFB1D14A91BF700681477 /* Build configuration list for PBXProject "Miratha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30ACFB4214A91BF900681477 /* Debug */,
+				30ACFB4314A91BF900681477 /* Release */,
+				785115ED170D352900E07D48 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30ACFB4414A91BF900681477 /* Build configuration list for PBXNativeTarget "Miratha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30ACFB4514A91BF900681477 /* Debug */,
+				30ACFB4614A91BF900681477 /* Release */,
+				785115EE170D352900E07D48 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30ACFB1A14A91BF700681477 /* Project object */;
+}
